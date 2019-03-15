@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
-const devs = ['548938012520611855'];
+const devs = ['405215218453446668'];
 const db = require('quick.db');
-const premium = ['548938012520611855']
+const premium = ['405215218453446668']
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -3694,4 +3694,4 @@ function save(){
 
 }
 	
-client.login("NTQ4OTM4MDEyNTIwNjExODU1.D2lTGg.gV3CH_MBHIBu8IfZBQjQwkCDAB0");
+client.login(process.env.BOT_TOKEN)
